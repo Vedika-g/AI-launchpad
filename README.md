@@ -158,32 +158,6 @@ To preview the built production bundle locally:
 npm run preview
 ```
 
----
-
-## 🚢 Deployment
-
-Because **AI Launchpad** is a client-side Single Page Application (SPA) with zero external backend or database dependencies, it can be deployed for free in seconds to any modern hosting platform:
-
-### Vercel
-1. Push your repository to GitHub.
-2. Import the repository in [Vercel](https://vercel.com).
-3. Framework Preset will automatically detect **Vite**.
-4. Click **Deploy**.
-
-### Netlify
-1. Connect your repository in [Netlify](https://netlify.com).
-2. Set Build command: `npm run build`.
-3. Set Publish directory: `dist`.
-4. Add a `_redirects` file in `public/` containing `/* /index.html 200` to support client-side routing.
-
-### GitHub Pages
-1. Install `gh-pages`: `npm install -D gh-pages`
-2. Configure `base: '/ai-launchpad/'` in `vite.config.ts`.
-3. Add a deploy script to `package.json`: `"deploy": "gh-pages -d dist"`.
-4. Run `npm run deploy`.
-
----
-
 ## 🔒 Privacy & Security
 
 - **Zero API Keys Required**: Does not rely on paid external API keys.
