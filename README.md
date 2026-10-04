@@ -144,20 +144,6 @@ ai-launchpad/
 
 ---
 
-## 🏗️ Production Build
-
-To build the optimized static production bundle:
-
-```bash
-npm run build
-```
-
-To preview the built production bundle locally:
-
-```bash
-npm run preview
-```
-
 ## 🔒 Privacy & Security
 
 - **Zero API Keys Required**: Does not rely on paid external API keys.
